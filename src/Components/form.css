@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gloock';
+
+}
+
+form{
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    width: 800px;
+    border-radius: 25px;
+}
+
+form h3{
+    color: gray;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+form input, form textarea{
+    border: 0;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: white;
+    font-size: 16px;
+
+}
+
+form button{
+    padding: 15px;
+    background: orange;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+
+@media (max-width: 450px) {
+    .container{
+        justify-content: normal;
+        align-items: normal;
+    }
+
+    form{
+        padding: 2rem 1rem;
+    }
+
+    form input, form textarea{
+        margin: 5px;
+        padding: 10px;
+        font-size: 0.7rem;
+        border-radius: 8px;
+    }
+
+    form button{
+        font-size: 0.9rem;
+        width: 100px;
+        margin: 5px auto 0;
+        padding: 10px;
+        border-radius: 20px;
+    }
+}
