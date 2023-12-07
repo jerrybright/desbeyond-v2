@@ -11,7 +11,7 @@ const About = () => {
             </div> 
             <div className="top-content">
                 <div className="contentu"> 
-                    <div className="description">
+                    <p>
                         <p>Desbeyond is a Books & Magazine 
                         Design Firm based in Chennai, 
                         India assisting Books Publishing 
@@ -24,12 +24,13 @@ const About = () => {
                         one service, but, many services. 
                         Our repeat business from some clients 
                         has been going for years.</p>
-                    </div>
+                    </p>
                     <div>
                         <img src="../src/assets/images/about-img.jpg" alt="image" />
                     </div>
                 </div>
             </div>
+            <div className="blended-div"></div>
             <div className="queries"> 
                 <p>At Desbeyond, we offer a professional finish that you can be proud of. We take extra special care when it comes to designing our book interiors, covers & e-books. We provide an Complete end-to-end Package for Book & Magazine Creations with our wide range of Services.</p>
                 <p>Any Query? 

@@ -97,7 +97,19 @@ const Home = () => {
             </div>
             <hr />
             <div className="footercol-4">
-                <h3>Language Support</h3>
+                <h4>We also provide services in</h4>
+                <div className="lang">
+                    <div className="top-lang">
+                        <img src="https://via.placeholder.com/150" alt="" />
+                        <img src="https://via.placeholder.com/150" alt="" />
+                        <img src="https://via.placeholder.com/150" alt="" />
+                    </div>
+                    <div className="bot-lang">
+                        <img src="https://via.placeholder.com/150" alt="" />
+                        <img src="https://via.placeholder.com/150" alt="" />
+                        <img src="https://via.placeholder.com/150" alt="" />
+                    </div>
+                </div>
                 <p>Tamil, Malayalam, Kanada, Hindi, Telugu, Marati,
                     English, French, German, Spanish,..</p>
             </div>

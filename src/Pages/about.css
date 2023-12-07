@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
 
 
-.abouthead{
+/* .abouthead{
     height: 75vh;
     width: 100%;
     background-color: #fff6b1;
@@ -71,4 +71,135 @@
     font-weight: bolder;
     font-style: italic;
     font-variant: small-caps;
-}
+} */
+
+.about{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .abouthead{
+    height: 650px;
+    width: 100%;
+    background-color: #fff6b1;
+    font-family: 'Gloock', serif;
+    font-size: 1.75rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .abouthead h2{
+    padding: 5rem;
+  }
+  
+  
+  .about .contentu{
+    display: flex;
+    font-family: 'Nunito',sans-serif;
+    font-size: 5rem;
+    height: auto;
+    position: absolute;
+  
+    top: 27rem; /* bottom space */
+    left:500px;
+  }
+  .blended-div{
+    height:650px;
+    width: 100%;
+  }
+  
+  .about .contentu p{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    font-size: 30px;
+    padding-right: 15px;
+    width: 550px;
+    text-align: justify;
+    margin: auto;
+  }
+  
+  
+  .about .contentu img{
+    width: 350px;
+    height: 550px;
+    display: block;
+    border-radius: 20px;
+    margin: auto;
+  }
+  
+  .about .queries{
+    height: 50vh;
+  
+  }
+  .about .queries p{
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Nunito',sans-serif;
+    padding: 20px;
+  }
+  
+  .about .queries p a{
+    color: #163542;
+    font-weight: bolder;
+    font-style: italic;
+    font-variant: small-caps;
+  }
+
+  @media (max-width: 450px) {
+    .about .contentu{
+        flex-direction: column-reverse;
+        left: 25px;
+        right: 25px;
+        gap: 2rem;
+      }
+      
+      .about .contentu p{
+        gap: 2rem;
+      }
+    
+      .about .contentu p{
+        width: 370px;
+      }
+    
+      .about .contentu p p{
+        font-size: 20px;
+      }
+    
+      .blended-div{
+        height: 100vh;
+      }
+    
+      .about .queries p{
+        font-size: 1.3rem;
+      }
+  }
+
+  @media (min-width: 450px) and (max-width: 1030px){
+    .about .contentu{
+        left: 70px;
+        right: 250px;
+        margin: auto;
+      }
+    
+      .about .contentu p{
+        gap: 2rem;
+      }
+    
+      .about .contentu p p{
+        font-size: 20px;
+        width: 300px;
+        height: 250px;
+      }
+  }
+
+  @media (width: 1024px) {
+    .about .contentu{
+      left: 150px;
+      right: 150px;
+      margin: auto;
+    }
+  }
