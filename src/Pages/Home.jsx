@@ -1,5 +1,6 @@
 import React from "react";
 import './home.css'
+import { Link } from "react-router-dom";
 
 const Home = () => {
     return (
@@ -8,7 +9,8 @@ const Home = () => {
                 <img src="../src/assets/images/logo2.png" alt="title" className="logo"/>
                 <div className="head">
                     <h1>DESBEYOND.</h1>
-                    <p>Open a world of words in your hands. Transform the lifeless pages into unique living narratives.</p>
+                   
+                    <p>Designing Beyond Today, For Tomorrow!</p>
                 </div>
             </div>
 
@@ -25,7 +27,7 @@ const Home = () => {
                 <div className="works">
                     <img src="../src/assets/images/home-2.png" alt="works"/>
                     <div>
-                       <h4>Magazine Cover Design</h4> 
+                       <h4>Magazine Design</h4> 
                        <p>Unleash your imagination and explore the unknown realms.</p>
                     </div>
                 </div>
@@ -66,8 +68,8 @@ const Home = () => {
             <div className="moreinfo">
                 <p>Ready for a unique bookish journey? Venture beyond the ordinary with us.</p>
                 <div>
-                    <span className="span1">Begin Now</span>
-                    <span className="span2">Learn more</span>
+                <Link to="/contact"><span className="span1">Begin Now</span></Link>
+                <Link to="/services"><span className="span2">Learn more</span></Link>
                 </div>
             </div>
 
@@ -90,29 +92,26 @@ const Home = () => {
                     className="cardimg"/></div>
                 </div>
             </div>
-
-            <div className="remainder">
-                <h2>Stay Updated</h2>
-                <p>Don't miss out on any tale. Sign-up for our newsletter and keep the adventure alive.</p>
-            </div>
-            <hr />
             <div className="footercol-4">
                 <h4>We also provide services in</h4>
                 <div className="lang">
                     <div className="top-lang">
-                        <img src="https://via.placeholder.com/150" alt="" />
-                        <img src="https://via.placeholder.com/150" alt="" />
-                        <img src="https://via.placeholder.com/150" alt="" />
+                        <img src="../src/assets/images/lang1.5.png" alt="" />
+                        <img src="../src/assets/images/lang4.png" alt="" />
+                        <img src="../src/assets/images/lang3.png" alt="" />
                     </div>
                     <div className="bot-lang">
-                        <img src="https://via.placeholder.com/150" alt="" />
-                        <img src="https://via.placeholder.com/150" alt="" />
-                        <img src="https://via.placeholder.com/150" alt="" />
+                        <img src="../src/assets/images/1tamil.png" alt="" />
+                        <img src="../src/assets/images/lang5.png" alt="" />
+                        <img src="../src/assets/images/lang6.png" alt="" />
                     </div>
                 </div>
-                <p>Tamil, Malayalam, Kanada, Hindi, Telugu, Marati,
-                    English, French, German, Spanish,..</p>
+                <p>English, Tamil, Malayalam, Kanada, Hindi, Telugu, Marati,
+                French, German, Spanish,..</p>
             </div>
+            
+           
+            
         </div>
     )
 }

@@ -1,5 +1,5 @@
 *{
-    margin:0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -19,6 +19,9 @@ form{
     padding: 3rem;
     width: 800px;
     border-radius: 25px;
+    outline: dashed;
+    
+    
 }
 
 form h3{
@@ -40,7 +43,7 @@ form input, form textarea{
 
 form button{
     padding: 15px;
-    background: orange;
+    background: rgb(99, 203, 231);
     color: white;
     font-size: 18px;
     border: 0;

@@ -26,6 +26,8 @@
 
 .title .head p{
   font-size: 1.5rem;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
 }
 
 .content{
@@ -90,6 +92,11 @@
   cursor: pointer;
 }
 
+.span1,.span2{
+  text-decoration: none;
+  color: white;
+}
+
 .cardstab{
   padding: 3rem ;
   background-color: #f0cc54;
@@ -107,8 +114,8 @@
 .cardimg{
   margin: 2rem;
   border-radius: 25px;
-  height: 350px;
-  width: 350px;
+  height: 450px;
+  width: 450px;
 }
 
 .cardinfo{
@@ -293,6 +300,7 @@ hr{
 
   .title .head p{
     font-size: 1.3rem;
+   
   }
 
   .content{
@@ -420,4 +428,12 @@ hr{
     font-size: 20px;
   }
 }
+
+.lang img{
+  outline: solid;
+
+}
+
+
+
 

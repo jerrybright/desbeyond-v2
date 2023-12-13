@@ -13,9 +13,9 @@
     flex-direction: column;
     justify-content: center;
     font-family: "Gloock", sans-serif;
-    font-weight: 100;
     margin: 3.5rem;
     font-size: 1.7rem;
+    text-indent: 5cqi;
     text-align: center;
 }
 
@@ -67,7 +67,7 @@
 }
 
 .middiv{
-    font-size: 5rem;
+    font-size: 4rem;
     margin: 7rem;
     padding: 25px;
     color: #22333B;
