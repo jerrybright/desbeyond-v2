@@ -33,9 +33,9 @@ const Home = () => {
                 </div>
 
                 <div className="works">
-                    <img src="../src/assets/images/home-3.png" alt="works"/>
+                    <img src="../src/assets/images/home3.png" alt="works"/>
                     <div>
-                       <h4>Logo Designs</h4> 
+                       <h4>Package Designs</h4> 
                        <p>Embark on an adventurous journey through a maze of tales.</p>
                     </div>
                 </div>
@@ -94,7 +94,7 @@ const Home = () => {
             </div>
             <div className="footercol-4">
                 <h4>We also provide services in</h4>
-                <div className="lang">
+              <div className="lang">
                     <div className="top-lang">
                         <img src="../src/assets/images/lang1.5.png" alt="" />
                         <img src="../src/assets/images/lang4.png" alt="" />
@@ -106,8 +106,20 @@ const Home = () => {
                         <img src="../src/assets/images/lang6.png" alt="" />
                     </div>
                 </div>
-                <p>English, Tamil, Malayalam, Kanada, Hindi, Telugu, Marati,
-                French, German, Spanish,..</p>
+                <p>English, French, German, Spanish, Italian, Tamil, Malayalam, Kanada, Hindi, Telugu, Marati..</p>
+    {/* <div className="mainlangs">
+                <div className="langs"><p>English</p></div>
+                <div className="langs"><p>française</p></div>
+                <div className="langs"><p>Deutsch</p></div>
+                <div className="langs"><p>italiana</p></div>
+                <div className="langs"><p>español</p></div>
+                <div className="langs"><p>عربي</p></div>
+                <div className="langs"><p>русский</p></div>
+                <div className="langs"><p>తెలుగు</p></div>
+                <div className="langs"><p>हिंदी</p></div>
+                <div className="langs"><p>தமிழ்</p></div>
+                <div className="langs"><p>മലയാളം</p></div>
+        </div> */}
             </div>
             
            
